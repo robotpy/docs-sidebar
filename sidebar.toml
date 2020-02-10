@@ -1,0 +1,62 @@
+
+#
+# This file is downloaded via the robotpy-sphinx-plugin, and converted
+# into a usable sidebar.
+#
+# This is a downloaded dependency because it's really annoying to make commits
+# to all of the projects each time we want to change the sidebar.
+#
+
+[projects]
+robotpy = "https://robotpy.readthedocs.io"
+cscore = "https://robotpy.readthedocs.io/projects/cscore"
+ctre = "https://robotpy.readthedocs.io/projects/ctre"
+navx = "https://robotpy.readthedocs.io/projects/navx"
+pyfrc = "https://robotpy.readthedocs.io/projects/pyfrc"
+pynetworktables = "https://robotpy.readthedocs.io/projects/pynetworktables"
+rev = "https://robotpy.readthedocs.io/projects/rev"
+utilities = "https://robotpy.readthedocs.io/projects/utilities"
+wpilib = "https://robotpy.readthedocs.io/projects/wpilib"
+
+[[toctree]]
+name = "Robot Programming"
+items = [
+    {p="robotpy", k="Getting Started", v="getting_started"},
+    {p="robotpy", k="Installation", v="install/index"},
+    {p="robotpy", k="Programmer's Guide", v="guide/index"},
+    {p="robotpy", k="Frameworks", v="frameworks/index"},
+    {p="robotpy", k="Hardware & Sensors", v="hw"},
+    {p="robotpy", k="Camera & Vision", v="vision/index"},
+]
+
+[[toctree]]
+name = "API Reference"
+items = [
+    {p="wpilib", k="WPILib API", v="api"},
+    {p="pynetworktables", k="NetworkTables API", v="api"},
+    {p="cscore", k="CSCore API", v="api"},
+    {p="utilities", k="Utilities API", v="api"},
+    {p="pyfrc", k="PyFRC API", v="api"},
+]
+
+[[toctree]]
+name = "Third Party HW"
+items = [
+    {p="ctre", k="CTRE API", v="api"},
+    {p="navx", k="NavX API", v="api"},
+    {p="rev", k="SPARK MAX API", v="api"},
+]
+
+[[toctree]]
+name = "Additional Info"
+items = [
+    {p="robotpy", k="Troubleshooting", v="troubleshooting"},
+    {p="robotpy", k="Support", v="support"},
+    {p="robotpy", k="FAQ", v="faq"},
+]
+
+[[toctree]]
+name = "RobotPy Developers"
+items = [
+    {p="robotpy", k="Developer Documentation", v="dev/index"},
+]
