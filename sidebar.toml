@@ -11,6 +11,7 @@
 robotpy = "https://robotpy.readthedocs.io"
 cscore = "https://robotpy.readthedocs.io/projects/cscore"
 ctre = "https://robotpy.readthedocs.io/projects/ctre"
+hal = "https://robotpy.readthedocs.io/projects/hal"
 navx = "https://robotpy.readthedocs.io/projects/navx"
 pyfrc = "https://robotpy.readthedocs.io/projects/pyfrc"
 pynetworktables = "https://robotpy.readthedocs.io/projects/pynetworktables"
@@ -37,6 +38,7 @@ items = [
     {p="cscore", k="CSCore API", v="api"},
     {p="utilities", k="Utilities API", v="api"},
     {p="pyfrc", k="PyFRC API", v="api"},
+    {p="hal", k="HAL API", v="api"},
 ]
 
 [[toctree]]
