@@ -25,7 +25,7 @@ items = [
     {p="robotpy", k="Getting Started", v="getting_started"},
     {p="robotpy", k="2020 Notes", v="2020_notes"},
     {p="robotpy", k="Installation", v="install/index"},
-    {p="robotpy", k="Programmer's Guide", v="guide/index"},
+    {p="robotpy", k="Programmer\u0027s Guide", v="guide/index"},
     {p="robotpy", k="Frameworks", v="frameworks/index"},
     {p="robotpy", k="Hardware & Sensors", v="hw"},
     {p="robotpy", k="Camera & Vision", v="vision/index"},
