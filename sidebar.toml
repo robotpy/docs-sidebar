@@ -9,6 +9,7 @@
 
 [projects]
 robotpy = "https://robotpy.readthedocs.io"
+commandv1 = "https://robotpy.readthedocs.io/projects/commands-v1"
 cscore = "https://robotpy.readthedocs.io/projects/cscore"
 ctre = "https://robotpy.readthedocs.io/projects/ctre"
 hal = "https://robotpy.readthedocs.io/projects/hal"
