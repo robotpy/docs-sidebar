@@ -37,6 +37,7 @@ items = [
     {p="wpilib", k="WPILib API", v="api"},
     {p="pynetworktables", k="NetworkTables API", v="api"},
     {p="cscore", k="CSCore API", v="api"},
+    {p="commandv1", k="Commands (old) API", v="api"},
     {p="utilities", k="Utilities API", v="api"},
     {p="pyfrc", k="PyFRC API", v="api"},
     {p="hal", k="HAL API", v="api"},
