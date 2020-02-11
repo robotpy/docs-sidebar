@@ -17,6 +17,7 @@ navx = "https://robotpy.readthedocs.io/projects/navx"
 pyfrc = "https://robotpy.readthedocs.io/projects/pyfrc"
 pynetworktables = "https://robotpy.readthedocs.io/projects/pynetworktables"
 rev = "https://robotpy.readthedocs.io/projects/rev"
+rev_color = "https://robotpy.readthedocs.io/projects/rev-color"
 utilities = "https://robotpy.readthedocs.io/projects/utilities"
 wpilib = "https://robotpy.readthedocs.io/projects/wpilib"
 
@@ -50,6 +51,7 @@ items = [
     {p="ctre", k="CTRE API", v="api"},
     {p="navx", k="NavX API", v="api"},
     {p="rev", k="SPARK MAX API", v="api"},
+    {p="rev_color", k="REV Color V3 API", v="api"},
 ]
 
 [[toctree]]
