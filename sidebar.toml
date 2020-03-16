@@ -9,6 +9,7 @@
 
 [projects]
 robotpy = "https://robotpy.readthedocs.io"
+adi = "https://robotpy.readthedocs.io/projects/adi"
 commandv1 = "https://robotpy.readthedocs.io/projects/commands-v1"
 cscore = "https://robotpy.readthedocs.io/projects/cscore"
 ctre = "https://robotpy.readthedocs.io/projects/ctre"
@@ -54,6 +55,7 @@ items = [
     {p="navx", k="NavX API", v="api"},
     {p="rev", k="SPARK MAX API", v="api"},
     {p="rev_color", k="REV Color V3 API", v="api"},
+    {p="adi", k="ADI API", v="api"},
 ]
 
 [[toctree]]
