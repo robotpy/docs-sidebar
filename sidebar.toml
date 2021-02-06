@@ -11,6 +11,7 @@
 robotpy = "https://robotpy.readthedocs.io"
 adi = "https://robotpy.readthedocs.io/projects/adi"
 commandv1 = "https://robotpy.readthedocs.io/projects/commands-v1"
+commandv2 = "https://robotpy.readthedocs.io/projects/commands-v2"
 cscore = "https://robotpy.readthedocs.io/projects/cscore"
 ctre = "https://robotpy.readthedocs.io/projects/ctre"
 hal = "https://robotpy.readthedocs.io/projects/hal"
@@ -43,6 +44,7 @@ items = [
     {p="wpilib", k="WPILib API", v="api"},
     {p="pynetworktables", k="NetworkTables API", v="api"},
     {p="cscore", k="CSCore API", v="api"},
+    {p="commandv2", k="Commands (new) API", v="api"},
     {p="commandv1", k="Commands (old) API", v="api"},
     {p="utilities", k="Utilities API", v="api"},
     {p="pyfrc", k="PyFRC API", v="api"},
