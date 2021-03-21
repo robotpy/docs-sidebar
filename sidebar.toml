@@ -16,6 +16,7 @@ cscore = "https://robotpy.readthedocs.io/projects/cscore"
 ctre = "https://robotpy.readthedocs.io/projects/ctre"
 hal = "https://robotpy.readthedocs.io/projects/hal"
 navx = "https://robotpy.readthedocs.io/projects/navx"
+pwfusion = "https://robotpy.readthedocs.io/projects/pwfusion"
 pyfrc = "https://robotpy.readthedocs.io/projects/pyfrc"
 pynetworktables = "https://robotpy.readthedocs.io/projects/pynetworktables"
 rev = "https://robotpy.readthedocs.io/projects/rev"
@@ -61,6 +62,7 @@ items = [
     {p="rev", k="SPARK MAX API", v="api"},
     {p="rev_color", k="REV Color V3 API", v="api"},
     {p="adi", k="ADI API", v="api"},
+    {p="pwfusion", k="PWFusion API", v="api"},
 ]
 
 [[toctree]]
