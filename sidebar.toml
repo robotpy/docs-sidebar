@@ -60,8 +60,6 @@ items = [
     {p="ctre", k="CTRE API", v="api"},
     {p="navx", k="NavX API", v="api"},
     {p="rev", k="SPARK MAX API", v="api"},
-    {p="rev_color", k="REV Color V3 API", v="api"},
-    {p="adi", k="ADI API", v="api"},
     {p="pwfusion", k="PWFusion API", v="api"},
 ]
 
