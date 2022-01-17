@@ -21,6 +21,7 @@ pyfrc = "https://robotpy.readthedocs.io/projects/pyfrc"
 pynetworktables = "https://robotpy.readthedocs.io/projects/pynetworktables"
 rev = "https://robotpy.readthedocs.io/projects/rev"
 rev_color = "https://robotpy.readthedocs.io/projects/rev-color"
+romi = "https://robotpy.readthedocs.io/projects/romi"
 utilities = "https://robotpy.readthedocs.io/projects/utilities"
 wpilib = "https://robotpy.readthedocs.io/projects/wpilib"
 wpimath = "https://robotpy.readthedocs.io/projects/wpimath"
@@ -61,6 +62,7 @@ items = [
     {p="navx", k="NavX API", v="api"},
     {p="rev", k="SPARK MAX API", v="api"},
     {p="pwfusion", k="PWFusion API", v="api"},
+    {p="romi", k="Romi API", v="api"},
 ]
 
 [[toctree]]
