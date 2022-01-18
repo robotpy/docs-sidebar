@@ -16,6 +16,7 @@ cscore = "https://robotpy.readthedocs.io/projects/cscore"
 ctre = "https://robotpy.readthedocs.io/projects/ctre"
 hal = "https://robotpy.readthedocs.io/projects/hal"
 navx = "https://robotpy.readthedocs.io/projects/navx"
+photonvision = "https://robotpy.readthedocs.io/projects/photonvision"
 pwfusion = "https://robotpy.readthedocs.io/projects/pwfusion"
 pyfrc = "https://robotpy.readthedocs.io/projects/pyfrc"
 pynetworktables = "https://robotpy.readthedocs.io/projects/pynetworktables"
@@ -32,7 +33,7 @@ wpiutil = "https://robotpy.readthedocs.io/projects/wpiutil"
 name = "Robot Programming"
 items = [
     {p="robotpy", k="Getting Started", v="getting_started"},
-    {p="robotpy", k="2020 Notes", v="2020_notes"},
+    {p="robotpy", k="Upgrade Notes", v="upgrade_notes"},
     {p="robotpy", k="Installation", v="install/index"},
     {p="robotpy", k="Programmer\u0027s Guide", v="guide/index"},
     {p="robotpy", k="Frameworks", v="frameworks/index"},
@@ -61,6 +62,7 @@ items = [
     {p="ctre", k="CTRE API", v="api"},
     {p="navx", k="NavX API", v="api"},
     {p="rev", k="SPARK MAX API", v="api"},
+    {p="photonvision", k="PhotonVision API", v="api"},
     {p="pwfusion", k="PWFusion API", v="api"},
     {p="romi", k="Romi API", v="api"},
 ]
