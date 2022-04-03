@@ -62,6 +62,7 @@ items = [
     {p="ctre", k="CTRE API", v="api"},
     {p="navx", k="NavX API", v="api"},
     {p="rev", k="REVLib API", v="api"},
+    {p="pathplannerlib", k="PathPlannerLib API", v="api"},
     {p="photonvision", k="PhotonVision API", v="api"},
     {p="pwfusion", k="PWFusion API", v="api"},
     {p="romi", k="Romi API", v="api"},
