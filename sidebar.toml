@@ -21,6 +21,7 @@ photonvision = "https://robotpy.readthedocs.io/projects/photonvision"
 pwfusion = "https://robotpy.readthedocs.io/projects/pwfusion"
 pyfrc = "https://robotpy.readthedocs.io/projects/pyfrc"
 pynetworktables = "https://robotpy.readthedocs.io/projects/pynetworktables"
+pyntcore = "https://robotpy.readthedocs.io/projects/pyntcore"
 rev = "https://robotpy.readthedocs.io/projects/rev"
 rev_color = "https://robotpy.readthedocs.io/projects/rev-color"
 romi = "https://robotpy.readthedocs.io/projects/romi"
@@ -46,10 +47,9 @@ items = [
 name = "API Reference"
 items = [
     {p="wpilib", k="WPILib API", v="api"},
-    {p="pynetworktables", k="NetworkTables API", v="api"},
+    {p="pyntcore", k="NTCore API", v="api"},
     {p="cscore", k="CSCore API", v="api"},
-    {p="commandv2", k="Commands (new) API", v="api"},
-    {p="commandv1", k="Commands (old) API", v="api"},
+    {p="commandv2", k="Commands API", v="api"},
     {p="utilities", k="Utilities API", v="api"},
     {p="pyfrc", k="PyFRC API", v="api"},
     {p="hal", k="HAL API", v="api"},
