@@ -54,6 +54,7 @@ items = [
     {p="utilities", k="Utilities API", v="api"},
     {p="pyfrc", k="PyFRC API", v="api"},
     {p="hal", k="HAL API", v="api"},
+    {p="apriltag", k="Apriltag API", v="api"},
     {p="wpimath", k="WPIMath API", v="api"},
     {p="wpiutil", k="WPIUtil API", v="api"},
 ]
