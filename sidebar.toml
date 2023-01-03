@@ -10,6 +10,7 @@
 [projects]
 robotpy = "https://robotpy.readthedocs.io"
 adi = "https://robotpy.readthedocs.io/projects/adi"
+apriltag = "https://robotpy.readthedocs.io/projects/apriltag"
 commandv1 = "https://robotpy.readthedocs.io/projects/commands-v1"
 commandv2 = "https://robotpy.readthedocs.io/projects/commands-v2"
 cscore = "https://robotpy.readthedocs.io/projects/cscore"
