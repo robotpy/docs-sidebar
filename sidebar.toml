@@ -29,6 +29,7 @@ romi = "https://robotpy.readthedocs.io/projects/romi"
 utilities = "https://robotpy.readthedocs.io/projects/utilities"
 wpilib = "https://robotpy.readthedocs.io/projects/wpilib"
 wpimath = "https://robotpy.readthedocs.io/projects/wpimath"
+wpinet = "https://robotpy.readthedocs.io/projects/wpinet"
 wpiutil = "https://robotpy.readthedocs.io/projects/wpiutil"
 
 
@@ -56,6 +57,7 @@ items = [
     {p="hal", k="HAL API", v="api"},
     {p="apriltag", k="Apriltag API", v="api"},
     {p="wpimath", k="WPIMath API", v="api"},
+    {p="wpinet", k="WPINet API", v="api"},
     {p="wpiutil", k="WPIUtil API", v="api"},
 ]
 
