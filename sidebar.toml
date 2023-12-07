@@ -9,56 +9,34 @@
 
 [projects]
 robotpy = "https://robotpy.readthedocs.io"
-adi = "https://robotpy.readthedocs.io/projects/adi"
-apriltag = "https://robotpy.readthedocs.io/projects/apriltag"
-commandv1 = "https://robotpy.readthedocs.io/projects/commands-v1"
+mostrobotpy = "https://robotpy.readthedocs.io/projects/robotpy"
 commandv2 = "https://robotpy.readthedocs.io/projects/commands-v2"
-cscore = "https://robotpy.readthedocs.io/projects/cscore"
 ctre = "https://robotpy.readthedocs.io/projects/ctre"
-hal = "https://robotpy.readthedocs.io/projects/hal"
 navx = "https://robotpy.readthedocs.io/projects/navx"
 pathplannerlib = "https://robotpy.readthedocs.io/projects/pathplannerlib"
 photonvision = "https://robotpy.readthedocs.io/projects/photonvision"
 pwfusion = "https://robotpy.readthedocs.io/projects/pwfusion"
 pyfrc = "https://robotpy.readthedocs.io/projects/pyfrc"
 pynetworktables = "https://robotpy.readthedocs.io/projects/pynetworktables"
-pyntcore = "https://robotpy.readthedocs.io/projects/pyntcore"
 rev = "https://robotpy.readthedocs.io/projects/rev"
 rev_color = "https://robotpy.readthedocs.io/projects/rev-color"
 romi = "https://robotpy.readthedocs.io/projects/romi"
 utilities = "https://robotpy.readthedocs.io/projects/utilities"
-wpilib = "https://robotpy.readthedocs.io/projects/wpilib"
-wpimath = "https://robotpy.readthedocs.io/projects/wpimath"
-wpinet = "https://robotpy.readthedocs.io/projects/wpinet"
-wpiutil = "https://robotpy.readthedocs.io/projects/wpiutil"
 
 
 [[toctree]]
-name = "Robot Programming"
+name = "RobotPy"
 items = [
-    {p="robotpy", k="Getting Started", v="getting_started"},
-    {p="robotpy", k="Upgrade Notes", v="upgrade_notes"},
-    {p="robotpy", k="Installation", v="install/index"},
-    {p="robotpy", k="Programmer\u0027s Guide", v="guide/index"},
-    {p="robotpy", k="Frameworks", v="frameworks/index"},
-    {p="robotpy", k="Hardware & Sensors", v="hw"},
-    {p="robotpy", k="Camera & Vision", v="vision/index"},
+    {p="robotpy", k="Overview", v="index"},
 ]
 
 [[toctree]]
 name = "API Reference"
 items = [
-    {p="wpilib", k="WPILib API", v="api"},
-    {p="pyntcore", k="NTCore API", v="api"},
-    {p="cscore", k="CSCore API", v="api"},
+    {p="mostrobotpy", k="Most API", v="api"},
     {p="commandv2", k="Commands API", v="api"},
     {p="utilities", k="Utilities API", v="api"},
     {p="pyfrc", k="PyFRC API", v="api"},
-    {p="hal", k="HAL API", v="api"},
-    {p="apriltag", k="Apriltag API", v="api"},
-    {p="wpimath", k="WPIMath API", v="api"},
-    {p="wpinet", k="WPINet API", v="api"},
-    {p="wpiutil", k="WPIUtil API", v="api"},
 ]
 
 [[toctree]]
@@ -70,19 +48,5 @@ items = [
     {p="pathplannerlib", k="PathPlannerLib API", v="api"},
     {p="photonvision", k="PhotonVision API", v="api"},
     {p="pwfusion", k="PWFusion API", v="api"},
-    {p="romi", k="Romi API", v="api"},
 ]
 
-[[toctree]]
-name = "Additional Info"
-items = [
-    {p="robotpy", k="Troubleshooting", v="troubleshooting"},
-    {p="robotpy", k="Support", v="support"},
-    {p="robotpy", k="FAQ", v="faq"},
-]
-
-[[toctree]]
-name = "RobotPy Developers"
-items = [
-    {p="robotpy", k="Developer Documentation", v="dev/index"},
-]
