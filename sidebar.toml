@@ -11,7 +11,8 @@
 robotpy = "https://robotpy.readthedocs.io"
 mostrobotpy = "https://robotpy.readthedocs.io/projects/robotpy"
 commandv2 = "https://robotpy.readthedocs.io/projects/commands-v2"
-ctre = "https://robotpy.readthedocs.io/projects/ctre"
+phoenix5 = "https://robotpy.readthedocs.io/projects/ctre"
+phoenix6 = "https://api.ctr-electronics.com/phoenix6/release/python/"
 navx = "https://robotpy.readthedocs.io/projects/navx"
 pathplannerlib = "https://robotpy.readthedocs.io/projects/pathplannerlib"
 photonvision = "https://robotpy.readthedocs.io/projects/photonvision"
@@ -42,10 +43,11 @@ items = [
 [[toctree]]
 name = "Third Party HW"
 items = [
-    {p="ctre", k="CTRE API", v="api"},
     {p="navx", k="NavX API", v="api"},
     {p="rev", k="REVLib API", v="api"},
     {p="pathplannerlib", k="PathPlannerLib API", v="api"},
+    {p="phoenix5", k="Phoenix5 API", v="api"},
+    {p="phoenix6", k="Phoenix6 API", v="index"},
     {p="photonvision", k="PhotonVision API", v="api"},
     {p="pwfusion", k="PWFusion API", v="api"},
 ]
