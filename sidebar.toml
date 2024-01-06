@@ -48,7 +48,7 @@ items = [
     {p="pathplannerlib", k="PathPlannerLib API", v="api"},
     {p="phoenix5", k="Phoenix5 API", v="api"},
     {p="phoenix6", k="Phoenix6 API", v="index"},
-    {p="photonvision", k="PhotonVision API", v="api"},
+    # {p="photonvision", k="PhotonVision API", v="api"},
     {p="pwfusion", k="PWFusion API", v="api"},
 ]
 
