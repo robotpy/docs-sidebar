@@ -47,7 +47,7 @@ items = [
     {p="rev", k="REVLib API", v="api"},
     {p="pathplannerlib", k="PathPlannerLib API", v="api"},
     {p="phoenix5", k="Phoenix5 API", v="api"},
-    {p="phoenix6", k="Phoenix6 API", v="index"},
+    {p="phoenix6", k="Phoenix6 API", v="index", actual_url=true},
     # {p="photonvision", k="PhotonVision API", v="api"},
     {p="pwfusion", k="PWFusion API", v="api"},
 ]
