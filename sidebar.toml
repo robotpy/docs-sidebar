@@ -14,7 +14,7 @@ commandv2 = "https://robotpy.readthedocs.io/projects/commands-v2"
 phoenix5 = "https://robotpy.readthedocs.io/projects/ctre"
 phoenix6 = "https://api.ctr-electronics.com/phoenix6/release/python"
 navx = "https://robotpy.readthedocs.io/projects/navx"
-pathplannerlib = "https://mjansen4857.com/pathplanner/docs/python"
+pathplannerlib = "https://pathplanner.dev/api/python"
 photonvision = "https://robotpy.readthedocs.io/projects/photonvision"
 pwfusion = "https://robotpy.readthedocs.io/projects/pwfusion"
 pyfrc = "https://robotpy.readthedocs.io/projects/pyfrc"
@@ -45,7 +45,7 @@ name = "Third Party HW"
 items = [
     {p="navx", k="NavX API", v="api"},
     {p="rev", k="REVLib API", v="api"},
-    {p="pathplannerlib", k="PathPlannerLib API", v="api"},
+    {p="pathplannerlib", k="PathPlannerLib API", v="index", actual_url=true},
     {p="phoenix5", k="Phoenix5 API", v="api"},
     {p="phoenix6", k="Phoenix6 API", v="index", actual_url=true},
     # {p="photonvision", k="PhotonVision API", v="api"},
